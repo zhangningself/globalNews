@@ -65,7 +65,6 @@
 
 <style lang="scss">
   .layout{
-      border: 1px solid #d7dde4;
       background: #f5f7f9;
       position: relative;
       min-height:500px;
