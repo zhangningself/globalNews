@@ -8,38 +8,90 @@
             <div class="layout-logo-left">导航栏</div>
             <Submenu name="1">
               <template slot="title">
-                <Icon type="ios-navigate"></Icon>
+                <i class="icon iconfont icon-UserSettings"></i>
                 用户中心
               </template>
-              <Menu-item name="1-1"><router-link to="/userlist" active-class="active" exact>用户列表</router-link></Menu-item>
-              <Menu-item name="1-2"><router-link to="/useradd" active-class="active">用户添加</router-link></Menu-item>
-              <Menu-item name="1-3"><router-link to="/useredit" active-class="active">用户编辑</router-link></Menu-item>
-              <Menu-item name="1-4"><router-link to="/userdelete" active-class="active">用户删除</router-link></Menu-item>
+              <Menu-item name="1-1">
+                <router-link to="/userlist" active-class="active" exact>
+                  <i class="icon iconfont icon-yonghuliebiao"></i>
+                  用户列表
+                </router-link>
+              </Menu-item>
+              <Menu-item name="1-2">
+                <router-link to="/useradd" active-class="active">
+                  <i class="icon iconfont icon-tianjiayonghu"></i>
+                  用户添加
+                </router-link>
+              </Menu-item>
+              <Menu-item name="1-3">
+                <router-link to="/useredit" active-class="active">
+                  <i class="icon iconfont icon-yonghubianji"></i>
+                  用户编辑
+                </router-link>
+              </Menu-item>
+              <Menu-item name="1-4">
+                <router-link to="/userdelete" active-class="active">
+                  <i class="icon iconfont icon-shanchuyonghu"></i>
+                  用户删除
+                </router-link>
+              </Menu-item>
             </Submenu>
             <Submenu name="2">
               <template slot="title">
-                <Icon type="ios-keypad"></Icon>
+                <i class="icon iconfont icon-xw"></i>
                 新闻管理
               </template>
-              <Menu-item name="2-1"><router-link to="/newslist" active-class="active">新闻列表</router-link></Menu-item>
-              <Menu-item name="2-2"><router-link to="/newsedit" active-class="active">新闻编辑器</router-link></Menu-item>
+              <Menu-item name="2-1">
+                <router-link to="/newslist" active-class="active">
+                  <i class="icon iconfont icon-xinwenliebiao"></i>
+                  新闻列表
+                </router-link>
+              </Menu-item>
+              <Menu-item name="2-2">
+                <router-link to="/newsedit" active-class="active">
+                  <i class="icon iconfont icon-neibuxinwen_bianji"></i>
+                  新闻编辑
+                </router-link>
+              </Menu-item>
             </Submenu>
             <Submenu name="3">
               <template slot="title">
-                <Icon type="ios-analytics"></Icon>
+                <i class="icon iconfont icon-pinglunguanli"></i>
                 评论管理
               </template>
-              <Menu-item name="3-1"><router-link to="/commentlist" active-class="active">评论列表</router-link></Menu-item>
-              <Menu-item name="3-2"><router-link to="/commentedit" active-class="active">管理评论</router-link></Menu-item>
+              <Menu-item name="3-1">
+                <router-link to="/commentlist" active-class="active">
+                <i class="icon iconfont icon-pinglunliebiao"></i>
+                  评论列表
+                </router-link>
+              </Menu-item>
+              <Menu-item name="3-2">
+                <router-link to="/commentedit" active-class="active">
+                  <i class="icon iconfont icon-pinglunguanli"></i>
+                  管理评论
+                </router-link>
+              </Menu-item>
             </Submenu>
             <Submenu name="4">
               <template slot="title">
-                <Icon type="ios-analytics"></Icon>
+                <i class="icon iconfont icon-guanliyuan"></i>
                 管理员
               </template>
-              <Menu-item name="4-1"><router-link to="/managementlist" active-class="active">管理员列表</router-link></Menu-item>
-              <Menu-item name="4-2"><router-link to="/genmanage" active-class="active">普通管理员</router-link></Menu-item>
-              <Menu-item name="4-3"><router-link to="/supermanage" active-class="active">超级管理员</router-link></Menu-item>
+              <Menu-item name="4-1">
+                <router-link to="/managementlist" active-class="active">
+                  管理员列表
+                </router-link>
+              </Menu-item>
+              <Menu-item name="4-2">
+                <router-link to="/genmanage" active-class="active">
+                  普通管理员
+                </router-link>
+              </Menu-item>
+              <Menu-item name="4-3">
+                <router-link to="/supermanage" active-class="active">
+                  超级管理员
+                </router-link>
+              </Menu-item>
             </Submenu>
           </Menu>
         </i-col>
@@ -120,5 +172,8 @@
       margin: 15px auto;
       color:#fff;
       text-align:center;
+  }
+  .icon-yonghuliebiao{
+    font-size:14px;
   }
 </style>

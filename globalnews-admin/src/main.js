@@ -6,6 +6,7 @@ import { routes } from './routes'
 import VueRouter from 'vue-router'
 import iView from 'iview'
 import 'iview/dist/styles/iview.css'
+import './assets/scss/iconfont.scss'
 
 Vue.use(iView)
 Vue.use(VueRouter)
