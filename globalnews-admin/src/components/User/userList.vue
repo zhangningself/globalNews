@@ -12,9 +12,14 @@
       return {
         columns: [
           {
+            type: 'selection',
+            width: 60,
+            align: 'center'
+          },
+          {
             title: '用户名',
             key: 'username',
-            width: 180,
+            width: 150,
             render: (h, params) => {
               return h('div', [
                 h('Icon', {
@@ -34,7 +39,7 @@
           {
             title: '邮箱地址',
             key: 'email',
-            width: 220
+            width: 190
           },
           {
             title: '性别',
@@ -73,9 +78,7 @@
                     size: 'small'
                   },
                   on: {
-                    click: () => {
-                      this.remove(params.index)
-                    }
+                    // 此处点击对数据库数据进行删除操作。
                   }
                 }, '删除')
               ])
@@ -91,91 +94,91 @@
             interest: '娱乐新闻、国际新闻、体育新闻、国内新闻、音乐新闻'
           },
           {
-            username: 'gen_zhang2',
+            username: 'rgdgzsf',
             password: '12345678',
             email: '17681989249@163.com',
             gender: '男',
             interest: '娱乐新闻、国际新闻、体育新闻、国内新闻、音乐新闻'
           },
           {
-            username: 'gen_zhang3',
+            username: 'dszgthbdrg',
             password: '12345678',
             email: '17681989249@163.com',
             gender: '男',
             interest: '娱乐新闻、国际新闻、体育新闻、国内新闻、音乐新闻'
           },
           {
-            username: 'gen_zhang4',
+            username: 'fjfdgszdg',
             password: '12345678',
             email: '17681989249@163.com',
             gender: '男',
             interest: '娱乐新闻、国际新闻、体育新闻、国内新闻、音乐新闻'
           },
           {
-            username: 'gen_zhang5',
+            username: 'gfndfd',
             password: '12345678',
             email: '17681989249@163.com',
             gender: '男',
             interest: '娱乐新闻、国际新闻、体育新闻、国内新闻、音乐新闻'
           },
           {
-            username: 'gen_zhang6',
+            username: 'sheffzs',
             password: '12345678',
             email: '17681989249@163.com',
             gender: '男',
             interest: '娱乐新闻、国际新闻、体育新闻、国内新闻、音乐新闻'
           },
           {
-            username: 'gen_zhang7',
+            username: 'gfjxdgsez',
             password: '12345678',
             email: '17681989249@163.com',
             gender: '男',
             interest: '娱乐新闻、国际新闻、体育新闻、国内新闻、音乐新闻'
           },
           {
-            username: 'gen_zhang8',
+            username: 'dwgz',
             password: '12345678',
             email: '17681989249@163.com',
             gender: '男',
             interest: '娱乐新闻、国际新闻、体育新闻、国内新闻、音乐新闻'
           },
           {
-            username: 'gen_zhang9',
+            username: 'hfxxhgdfxd',
             password: '12345678',
             email: '17681989249@163.com',
             gender: '男',
             interest: '娱乐新闻、国际新闻、体育新闻、国内新闻、音乐新闻'
           },
           {
-            username: 'gen_zhang10',
+            username: 'dszhfxg',
             password: '12345678',
             email: '17681989249@163.com',
             gender: '男',
             interest: '娱乐新闻、国际新闻、体育新闻、国内新闻、音乐新闻'
           },
           {
-            username: 'gen_zhang11',
+            username: 'xdjjfxgxd',
             password: '12345678',
             email: '17681989249@163.com',
             gender: '男',
             interest: '娱乐新闻、国际新闻、体育新闻、国内新闻、音乐新闻'
           },
           {
-            username: 'gen_zhang12',
+            username: 'xdfjfgcbfgx',
             password: '12345678',
             email: '17681989249@163.com',
             gender: '男',
             interest: '娱乐新闻、国际新闻、体育新闻、国内新闻、音乐新闻'
           },
           {
-            username: 'gen_zhang13',
+            username: 'fxjgfggdgxf',
             password: '12345678',
             email: '17681989249@163.com',
             gender: '男',
             interest: '娱乐新闻、国际新闻、体育新闻、国内新闻、音乐新闻'
           },
           {
-            username: 'gen_zhang14',
+            username: 'zdxjfgxdfxz',
             password: '12345678',
             email: '17681989249@163.com',
             gender: '男',
