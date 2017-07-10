@@ -1,7 +1,7 @@
 <template>
   <div id="zq-page">
     <search :datas="datas" @inputes="filter"></search>
-    <p class="noMessage" v-if="show">如果你没查询请无视这条信息，如果进行了查询操作，但这条信息还在，那么骚瑞，没有你要找的用户~~(咳咳，不要问为什么，因为某人太懒。。。)</p>
+    <p class="noMessage" v-if="show">如果你没查询请无视这条信息，如果进行了查询操作，但这条信息还在，那么骚瑞，没有你要找的用户~~</p>
     <Table border :columns="columns" :data="newdata"></Table>
     <div style="margin: 10px;overflow: hidden">
         <div style="float: right;">
